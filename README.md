@@ -3,9 +3,12 @@
  Curso de Programador Web - Turma 2021B, oferecido pelo <a href="https://moodle.ifrs.edu.br/">Instituto Federal do Rio Grande do Sul</a> (Grátis com certificado de 200 horas de carga horária)
  
  <h3 align="center">⚒️O que o curso vai abordar:⚒️ </h3><br>
+ <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
  
  <hr>
- <p align="center">👉 1 - HTML</p>
+ <p align="center">👉  1 - HTML</p>
  <hr>
  <br>
  ✅ Introdução ao desenvolvimento de páginas; <br>
