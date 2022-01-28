@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 1.19</title>
+</head>
+<body>
+    <h1>Aula sobre tabelas</h1>
+    <p>Tabelas simples</p>
+    <table>
+        <tr>
+            <td>Aqui vai o conteudo</td>
+        </tr>
+    </table>
+    <p>Tabela com 2 linhas e 2 colunas</p>
+    <table border="1">
+        <tr>
+            <td>Primeiro Conteudo</td>
+            <td>Segundo Conteudo</td>
+        </tr>
+        <tr>
+            <td>TErceiro Conteudo, </td>
+            <td>Quarto Conteudo </td>
+        </tr>
+        <tr>
+            <td colspan="2">Teste</td>
+<!--Coldspan  pega a coluna mais de 1 celula,Não usado mais, elemento do html4-->
+<!-- rowspan Junção da linha de baixo - Não usado mais, elemento do html4-->
+        </tr>
+        <tr>
+            <td>Coluna 1</td>
+            <td>Coluna</td>            
+        </tr>
+        <tr>
+            <td rowspan="2">Coluna 3</td>
+            <td>teste</td>
+        </tr>
+        <tr>
+            <td>Teste</td>           
+        </tr>
+    </table>    
+
+    <!--Tabelas mais sofisticadas-->
+    <p>tabelas modernas - Tabela com cabeçalho e rodapé</p>
+    <!-- com Cabeçalho e com a tag th ao inves de td, (th para definir a area do cabeçalho da tabela, já fica negritado)-->
+    <table>
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Valor</th>
+            </tr>            
+        </thead>
+        <tfoot> <!--Esse é o rodapé, vai no final da tabela-->
+            <tr>
+                <td>Total</td>
+                <td>R$180,00</td>
+            </tr>        
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$ 100,00</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$ 80,00</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+</body>
+</html>
