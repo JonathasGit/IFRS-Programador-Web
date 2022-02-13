@@ -8,8 +8,13 @@
 </head>
 <body>
     <form method="post" action="#">
-        Nome: <input type="text" name="nome"> <br>
-        E-mail: <input type="text" name="email">
+        Nome: <input type="text" name="nome" placeholder="Escreva seu nome" required> <br>
+        Desativado: <input type="text" name="nome" placeholder="Campo desativado" disabled> <br>
+        E-mail: <input type="text" name="email" value="email@email.com"> <br>
+        Campo só para leitura: <input type="text" name="leitura" value="Só leitura" readonly> <br>
+        CPF <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"><br> <!--Criar uma expressão regular--> 
+        Senha: <input type="password" name="senha"> <br>
+        Descrição: <textarea name="descricao" name="descricao" rows="10"></textarea>
         <!--5:00-->
     </form>
     
