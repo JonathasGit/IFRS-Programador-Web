@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1.27 - Campos de Seleção</title>
+</head>
+
+<body>
+
+    <p>Seleção de mais de um campo -
+    <h1>Checkbox</h1>
+    </p><br>
+    <form method="post">
+        Quais cursos você fará ?<br>
+        <input type="checkbox" name="html" value="1">HTML<br>
+        <input type="checkbox" name="CSS" value="1">CSS<br>
+        <input type="checkbox" name="JS" value="1">JS<br>
+    </form>
+
+    <p>Apenas uma escolha</p>
+    <h1>Radio</h1>
+    <form>
+        Quais cursos você fará? <br>
+        <input type="radio" name="curso" value="html">HTML<br>
+        <input type="radio" name="curso" value="css">CSS <br>
+        <input type="radio" name="curso" value="js">JS<br>
+    </form>
+
+    <p>Qual aparelho você possui</p><br>
+    <form method="post">
+        Quais cursos você fará ?<br>
+        <input type="checkbox" name="notebook" value="sim">Notebook<br>
+        <input type="checkbox" name="tablet" value="sim">Tablet<br>
+        <input type="checkbox" name="celular" value="sim" checked>Celular<br>
+        <!--Já vem marcado-->
+        <br>
+        Você prefere: <br>
+        <input type="radio" name="sistema" value="android" checked>Android<br>
+        <input type="radio" name="sistema" value="IOS">IOS <br>
+    </form>
+
+    <h1>Campo de seleção - SELECT</h1><br>
+
+    <form method="post">
+        Qual curso você fará? <br>
+        <select name="curso">
+            <option value="html">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+            <option value="Java">Java</option>
+            <option value="Python">Pyton</option>
+
+        </select>
+
+    </form>
+
+
+
+
+</body>
+
+</html>
