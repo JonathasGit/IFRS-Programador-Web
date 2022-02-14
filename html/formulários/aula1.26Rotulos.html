@@ -11,7 +11,7 @@
 
     <p>Escolha entre as opções</p>
 
-    <form action="post">
+    <form method="post">
         <label for="homem">Homem</label>
         <input type="radio" name="sexo" id="homem" value="homem"><br>
         <label for="mulher">Mulher</label>
@@ -20,6 +20,16 @@
         <label for="endereco">Endereço:</label> 
         <textarea name="endereco" id="endereco">Aqui vai o endereço</textarea>
          <!--Definimos o ID para quando clicar no nome ENDEREÇO, já ir para parte de digitar.-->   
+     
     </form>    
+
+    <form method="post" action="">
+        <fieldset>
+            <legend>Campo Limitado</legend>
+            Nome: <input type="text"><br>
+            E-mail <input type="text"><br>
+            Nascimento: <input type="text">
+        </fieldset>
+    </form>
 </body>
 </html>
